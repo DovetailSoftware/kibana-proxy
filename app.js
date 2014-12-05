@@ -10,6 +10,8 @@
  * Author: Hugues Malphettes.
  */
 
+var dotenv=require('dotenv')
+dotenv.load()
 var fs = require('fs');
 var parseUrl = require('url').parse;
 var express = require('express');
